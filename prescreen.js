@@ -29,7 +29,7 @@ var x = {
     },
 
     display: function () {
-        console.log('value', this.value)
+        console.log('value: ', this.value)
     }
 }
 
