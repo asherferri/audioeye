@@ -1,19 +1,19 @@
-// // question 6
+// question 6
 
-// var index = 'coin'
+var index = 'coin'
 
-// var obj = {
-//     a: {
-//         'animal': 'rooster',
-//         'coin': 'penny'
-//     },
-//     b: {
-//         'animal': 'hen',
-//         'coin': 'dime'
-//     }
-// }
+var obj = {
+    a: {
+        'animal': 'rooster',
+        'coin': 'penny'
+    },
+    b: {
+        'animal': 'hen',
+        'coin': 'dime'
+    }
+}
 
-// console.log(obj.a.animal + " " + obj.b[index])
+console.log(obj.a.animal + " " + obj.b[index])
 
 //question 7
 
@@ -38,3 +38,13 @@ x.plus()
 x.minus()
 x.plus()
 x.display()
+
+//question 8
+
+var obj = function (a) {
+    sundry = this
+    this.x = 3
+    console.log(sundry.x * a)
+}
+
+obj(9)
